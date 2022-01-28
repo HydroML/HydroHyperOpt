@@ -1,0 +1,10 @@
+Package: HydroML
+Type: Package
+Title: Optimized Hydrology ML Models
+Version: 0.1.0
+Author: Aishwarya More, Joseph Janssen
+Maintainer: Joseph Janssen <joejanssen@eoas.ubc.ca>
+Description: Provides optimized Random Forest and XGBoost models specific to the field of hydrology.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
