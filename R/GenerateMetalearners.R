@@ -1,4 +1,19 @@
-#Train metalearners for specific objective function and ML algorithm
+#' Generate Metalearners
+#'
+#' @description  Train metalearners for specific objective function and ML algorithm
+#'
+#' @param obj_fn The objective function used to evaluate models (KGE/NSE)
+#' @param ml_algo The type of machine learning algorithm to train (RF/XGB)
+#'
+#'@usage GenerateMetalearners(obj_fn,ml_algo)
+#'
+#' @return will save the specified model as an .rds file for future use/reference
+#'
+#' @examples
+#' GenerateMetalearners("KGE","RF")
+#' GenerateMetalearners("NSE","XGB")
+
+
 GenerateMetalearners <- function(obj_fn,ml_algo){
   #will save models as .rds files for future use/reference
 
