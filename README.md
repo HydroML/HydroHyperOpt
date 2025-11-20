@@ -10,6 +10,21 @@ To download this package, run the following code:
 Our new optimal defaults mentioned in our paper were carfully devised trying to find a large area in the space of hyperparameter sets that were consistently better than the previous optimal defaults. We used the evtree package in R to run this classification, though this sometimes failed, perhaps due to neeing linear instead of constant cuts in space. In these cases we performed manual classification.
 
 ![rf_kge_geD.jpg](rf_kge_geD.jpg)
+This figure
+
+
+![rf_kge_geOD.jpg](rf_kge_geOD.jpg)
+This figure
+
+![rf_kge_geOD_weighted.jpg](rf_kge_geOD_weighted.jpg)
+This figure
+
+![rf_nse_geOD.jpg](rf_nse_geOD.jpg)
+This figure
+
+
+![rf_nse_geD.jpg](rf_nse_geD.jpg)
+This figure
 
 
 # How to cite
